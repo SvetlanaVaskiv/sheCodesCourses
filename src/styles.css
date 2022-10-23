@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  color: gray;
+}
+a {
+  text-decoration: none;
+}
+.pressed {
+  color: grey;
+}
+
+small {
+  font-size: 10px;
+  margin: 7px;
+  position: relative;
+  bottom: 5px;
+}
+.current {
+  font-size: xxx-large;
+  color: black;
+}
