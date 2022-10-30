@@ -44,16 +44,23 @@
               </div>
             </form>
           </div>
+          <div
+            class="spinner-border text-info"
+            id="loading"
+            role="status"
+          ></div>
           <div class="row mb-3">
             <div class="col-12">
-              <h2 id="name-of-city">Paris , France</h2>
+              <h2 id="name-of-city"></h2>
               <p class="description">Wednesdey 22:00</p>
             </div>
           </div>
           <div class="row mb-3">
             <div class="col-6 current">
               <p>
-                <span class="temp">🌤 19</span>
+                <img src="" alt="Clear" id="icon" class="hide" />
+
+                <span class="temp"></span>
                 <sup
                   ><small
                     ><a href="#" id="celsium">°C </a>
@@ -64,7 +71,8 @@
               </p>
             </div>
             <div class="col-6">
-              <p>Precipitation : 0%</p>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
               <p class="humidity">Humidity:0%</p>
               <p id="wind">Wind : 8km/h</p>
             </div>
@@ -72,6 +80,8 @@
         </div>
       </div>
     </div>
-    <a href="https://github.com/SvetlanaVaskiv" class="linkToGit">LINK TO GITHUB</a>
+    <a href="https://github.com/SvetlanaVaskiv" class="linkToGit"
+      >LINK TO GITHUB</a
+    >
   </body>
 </html>

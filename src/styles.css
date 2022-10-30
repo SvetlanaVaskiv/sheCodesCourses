@@ -8,7 +8,12 @@ a {
 .pressed {
   color: grey;
 }
-
+#button-submit {
+  margin-bottom: 20px;
+}
+#btn-currentWeather {
+  display: block;
+}
 small {
   font-size: 10px;
   margin: 7px;
@@ -22,6 +27,12 @@ small {
 .linkToGit {
   font-size: 20px;
   display: block;
-margin:0 auto;
-text-align: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.description {
+  text-transform: capitalize;
 }
