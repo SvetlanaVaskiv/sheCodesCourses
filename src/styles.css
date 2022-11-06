@@ -36,3 +36,20 @@ small {
 .description {
   text-transform: capitalize;
 }
+.forecast-temp-max {
+  color: #000;
+}
+#weather-forecast{
+  text-align: center;
+  font-size: 14px;
+}
+.card-body{
+  font-size: x-large;
+}
+#icon{
+    width: 40%;
+
+}
+#iconForecast{
+  width: 40%;
+}
